@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		280B7AE62D33D7930043F062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280B7ACC2D33D7920043F062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280B7AD32D33D7920043F062;
+			remoteInfo = SwiftLlamaApp;
+		};
+		280B7AF02D33D7930043F062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280B7ACC2D33D7920043F062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280B7AD32D33D7920043F062;
+			remoteInfo = SwiftLlamaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280B7AD42D33D7920043F062 /* SwiftLlamaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLlamaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280B7AE52D33D7930043F062 /* SwiftLlamaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLlamaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280B7AEF2D33D7930043F062 /* SwiftLlamaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLlamaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		280B7AD62D33D7920043F062 /* SwiftLlamaApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftLlamaApp;
+			sourceTree = "<group>";
+		};
+		280B7AE82D33D7930043F062 /* SwiftLlamaAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftLlamaAppTests;
+			sourceTree = "<group>";
+		};
+		280B7AF22D33D7930043F062 /* SwiftLlamaAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftLlamaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280B7AD12D33D7920043F062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280B7AE22D33D7930043F062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280B7AEC2D33D7930043F062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280B7ACB2D33D7920043F062 = {
+			isa = PBXGroup;
+			children = (
+				280B7AD62D33D7920043F062 /* SwiftLlamaApp */,
+				280B7AE82D33D7930043F062 /* SwiftLlamaAppTests */,
+				280B7AF22D33D7930043F062 /* SwiftLlamaAppUITests */,
+				280B7AD52D33D7920043F062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280B7AD52D33D7920043F062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280B7AD42D33D7920043F062 /* SwiftLlamaApp.app */,
+				280B7AE52D33D7930043F062 /* SwiftLlamaAppTests.xctest */,
+				280B7AEF2D33D7930043F062 /* SwiftLlamaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280B7AD32D33D7920043F062 /* SwiftLlamaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280B7AF92D33D7930043F062 /* Build configuration list for PBXNativeTarget "SwiftLlamaApp" */;
+			buildPhases = (
+				280B7AD02D33D7920043F062 /* Sources */,
+				280B7AD12D33D7920043F062 /* Frameworks */,
+				280B7AD22D33D7920043F062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				280B7AD62D33D7920043F062 /* SwiftLlamaApp */,
+			);
+			name = SwiftLlamaApp;
+			packageProductDependencies = (
+			);
+			productName = SwiftLlamaApp;
+			productReference = 280B7AD42D33D7920043F062 /* SwiftLlamaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		280B7AE42D33D7930043F062 /* SwiftLlamaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280B7AFC2D33D7930043F062 /* Build configuration list for PBXNativeTarget "SwiftLlamaAppTests" */;
+			buildPhases = (
+				280B7AE12D33D7930043F062 /* Sources */,
+				280B7AE22D33D7930043F062 /* Frameworks */,
+				280B7AE32D33D7930043F062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280B7AE72D33D7930043F062 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				280B7AE82D33D7930043F062 /* SwiftLlamaAppTests */,
+			);
+			name = SwiftLlamaAppTests;
+			packageProductDependencies = (
+			);
+			productName = SwiftLlamaAppTests;
+			productReference = 280B7AE52D33D7930043F062 /* SwiftLlamaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		280B7AEE2D33D7930043F062 /* SwiftLlamaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280B7AFF2D33D7930043F062 /* Build configuration list for PBXNativeTarget "SwiftLlamaAppUITests" */;
+			buildPhases = (
+				280B7AEB2D33D7930043F062 /* Sources */,
+				280B7AEC2D33D7930043F062 /* Frameworks */,
+				280B7AED2D33D7930043F062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280B7AF12D33D7930043F062 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				280B7AF22D33D7930043F062 /* SwiftLlamaAppUITests */,
+			);
+			name = SwiftLlamaAppUITests;
+			packageProductDependencies = (
+			);
+			productName = SwiftLlamaAppUITests;
+			productReference = 280B7AEF2D33D7930043F062 /* SwiftLlamaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280B7ACC2D33D7920043F062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					280B7AD32D33D7920043F062 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					280B7AE42D33D7930043F062 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 280B7AD32D33D7920043F062;
+					};
+					280B7AEE2D33D7930043F062 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 280B7AD32D33D7920043F062;
+					};
+				};
+			};
+			buildConfigurationList = 280B7ACF2D33D7920043F062 /* Build configuration list for PBXProject "SwiftLlamaApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 280B7ACB2D33D7920043F062;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 280B7AD52D33D7920043F062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280B7AD32D33D7920043F062 /* SwiftLlamaApp */,
+				280B7AE42D33D7930043F062 /* SwiftLlamaAppTests */,
+				280B7AEE2D33D7930043F062 /* SwiftLlamaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280B7AD22D33D7920043F062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280B7AE32D33D7930043F062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280B7AED2D33D7930043F062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280B7AD02D33D7920043F062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280B7AE12D33D7930043F062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280B7AEB2D33D7930043F062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		280B7AE72D33D7930043F062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280B7AD32D33D7920043F062 /* SwiftLlamaApp */;
+			targetProxy = 280B7AE62D33D7930043F062 /* PBXContainerItemProxy */;
+		};
+		280B7AF12D33D7930043F062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280B7AD32D33D7920043F062 /* SwiftLlamaApp */;
+			targetProxy = 280B7AF02D33D7930043F062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		280B7AF72D33D7930043F062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		280B7AF82D33D7930043F062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		280B7AFA2D33D7930043F062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftLlamaApp/SwiftLlamaApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftLlamaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = NWJALMT777;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amitsamant.in.SwiftLlamaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		280B7AFB2D33D7930043F062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftLlamaApp/SwiftLlamaApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftLlamaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = NWJALMT777;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amitsamant.in.SwiftLlamaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		280B7AFD2D33D7930043F062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWJALMT777;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amitsamant.in.SwiftLlamaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLlamaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftLlamaApp";
+			};
+			name = Debug;
+		};
+		280B7AFE2D33D7930043F062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWJALMT777;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amitsamant.in.SwiftLlamaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLlamaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftLlamaApp";
+			};
+			name = Release;
+		};
+		280B7B002D33D7930043F062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWJALMT777;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amitsamant.in.SwiftLlamaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftLlamaApp;
+			};
+			name = Debug;
+		};
+		280B7B012D33D7930043F062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWJALMT777;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amitsamant.in.SwiftLlamaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftLlamaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280B7ACF2D33D7920043F062 /* Build configuration list for PBXProject "SwiftLlamaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280B7AF72D33D7930043F062 /* Debug */,
+				280B7AF82D33D7930043F062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280B7AF92D33D7930043F062 /* Build configuration list for PBXNativeTarget "SwiftLlamaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280B7AFA2D33D7930043F062 /* Debug */,
+				280B7AFB2D33D7930043F062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280B7AFC2D33D7930043F062 /* Build configuration list for PBXNativeTarget "SwiftLlamaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280B7AFD2D33D7930043F062 /* Debug */,
+				280B7AFE2D33D7930043F062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280B7AFF2D33D7930043F062 /* Build configuration list for PBXNativeTarget "SwiftLlamaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280B7B002D33D7930043F062 /* Debug */,
+				280B7B012D33D7930043F062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 280B7ACC2D33D7920043F062 /* Project object */;
+}
