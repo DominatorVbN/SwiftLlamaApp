@@ -1,0 +1,15 @@
+{
+  "originHash" : "b0b1430d5dade2a3d80573a59760d4d1c0776edd76c81b953f5409a7c8880660",
+  "pins" : [
+    {
+      "identity" : "swiftllama",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DominatorVbN/SwiftLlama.git",
+      "state" : {
+        "revision" : "addfa2855b98cd1824ba14b3143594fccc4bf27a",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

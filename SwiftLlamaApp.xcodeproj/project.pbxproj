@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		280B7B0C2D33E4AE0043F062 /* LLaMAServer in Frameworks */ = {isa = PBXBuildFile; productRef = 280B7B0B2D33E4AE0043F062 /* LLaMAServer */; };
+		280B7B212D33E5D30043F062 /* LLaMAServer in Frameworks */ = {isa = PBXBuildFile; productRef = 280B7B202D33E5D30043F062 /* LLaMAServer */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		280B7AE62D33D7930043F062 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +34,22 @@
 		280B7AEF2D33D7930043F062 /* SwiftLlamaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLlamaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		280B7B092D33E2DD0043F062 /* Exceptions for "SwiftLlamaApp" folder in "SwiftLlamaApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 280B7AD32D33D7920043F062 /* SwiftLlamaApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		280B7AD62D33D7920043F062 /* SwiftLlamaApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				280B7B092D33E2DD0043F062 /* Exceptions for "SwiftLlamaApp" folder in "SwiftLlamaApp" target */,
+			);
 			path = SwiftLlamaApp;
 			sourceTree = "<group>";
 		};
@@ -52,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280B7B0C2D33E4AE0043F062 /* LLaMAServer in Frameworks */,
+				280B7B212D33E5D30043F062 /* LLaMAServer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +132,8 @@
 			);
 			name = SwiftLlamaApp;
 			packageProductDependencies = (
+				280B7B0B2D33E4AE0043F062 /* LLaMAServer */,
+				280B7B202D33E5D30043F062 /* LLaMAServer */,
 			);
 			productName = SwiftLlamaApp;
 			productReference = 280B7AD42D33D7920043F062 /* SwiftLlamaApp.app */;
@@ -195,6 +217,9 @@
 			);
 			mainGroup = 280B7ACB2D33D7920043F062;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				280B7B1F2D33E5D30043F062 /* XCRemoteSwiftPackageReference "SwiftLlama" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 280B7AD52D33D7920043F062 /* Products */;
 			projectDirPath = "";
@@ -397,10 +422,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftLlamaApp/Preview Content\"";
-				DEVELOPMENT_TEAM = NWJALMT777;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftLlamaApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -424,10 +450,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftLlamaApp/Preview Content\"";
-				DEVELOPMENT_TEAM = NWJALMT777;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftLlamaApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -549,6 +576,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		280B7B1F2D33E5D30043F062 /* XCRemoteSwiftPackageReference "SwiftLlama" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DominatorVbN/SwiftLlama.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		280B7B0B2D33E4AE0043F062 /* LLaMAServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LLaMAServer;
+		};
+		280B7B202D33E5D30043F062 /* LLaMAServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 280B7B1F2D33E5D30043F062 /* XCRemoteSwiftPackageReference "SwiftLlama" */;
+			productName = LLaMAServer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 280B7ACC2D33D7920043F062 /* Project object */;
 }
