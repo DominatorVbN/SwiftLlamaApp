@@ -16,6 +16,9 @@ Fetch swift packages and hit run.
 
 ![configexpand.png](configexpand.png)
 
+Model used in the above images:
+https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF
+
 ## Utilising the configurator
 
 Other than being the example project of [SwiftLlama](https://github.com/DominatorVbN/SwiftLlama) this project have one more purpose. This app lets you configure the exhuastive list of parameters available for LLAMA.cpp server executable. You can use this project to try out diffrent configuration while running the server before setting those configs in your apps.
